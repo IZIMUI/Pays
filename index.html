@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<meta charset='UTF-8'/>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'/>
+<head>
+<title>
+资金转移平台
+</title>
+<style>
+body {
+Overflow: Hidden; 
+Background: Url("./Images/Background.png");
+Background-Repeat: No-Repeat;
+Background-Size: Cover;
+}
+
+input, button {
+border-radius: 25px;
+}
+
+ .Select_Color.checked {
+    border-color: red;
+}
+
+.Input {
+text-align: center;
+border-color: red;
+width: 65%;
+height: 100%;
+}
+</style>
+</head>
+<body>
+<div align="center">
+<table border="1" cellspacing="0">
+<tr>
+<td id="QR_Code" width="350px" height="470px">
+<div align="center">
+<h1>
+<font color="red">
+请在下方选择
+<br>
+您的资金转移路线
+<br>
+并且填写收款资料
+</font>
+</h1>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<br>
+<div align="center">
+<form method="post" name="Selection_Platform">
+<input id="Platform" name="Transfer_Platform" type="radio" class="Select_Color" value="QQ">
+<font color="red">
+【QQ】=>【微信】
+</font>
+<br>
+<input id="Platform" name="Transfer_Platform" type="radio" class="Select_Color" value="QQ"/>
+<font color="red">
+【QQ】=>【支付宝】
+</font>
+<br>
+<input id="Platform" name="Transfer_Platform" type="radio" class="Select_Color" value="WeChat"/>
+<font color="red">
+【微信】=>【QQ】
+</font>
+<br>
+<input id="Platform" name="Transfer_Platform" type="radio" class="Select_Color" value="WeChat"/>
+<font color="red">
+【微信】=>【支付宝】
+</font>
+<br>
+<input id="Platform" name="Transfer_Platform" type="radio" class="Select_Color" value="AliPay"/>
+<font color="red">
+【支付宝】=>【QQ】
+</font>
+<br>
+<input id="Platform" name="Transfer_Platform" type="radio" class="Select_Color" value="AliPay"/>
+<font color="red">
+【支付宝】=>【微信】
+</font>
+</form>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td>
+<br>
+<div align="center">
+<input id="Collection_Account" type="text" class="Input" placeholder="请输入您的收款账户"/>
+<br>
+<input id="Name" type="text" class="Input" placeholder="请输入您的真实姓名"/>
+<br>
+<input id="Phone_Number" type="text" class="Input" placeholder="请输入您的手机号码"/>
+</div>
+<br>
+</td>
+<tr>
+<td>
+<br>
+<div align="center">
+<button id="Transfer" class="Input">
+开始转移
+</button>
+</div>
+<br>
+</td>
+</tr>
+</table>
+</div>
+</body>
+<script>
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('"T S";2.6("W").V("U",M(){w p=x;L(w f=0;f<2.m.H.I;f++){e(2.m[f].J){p=K;e(2.6("G").h){e(F B("[\\A-\\C]").z(2.6("D").h)){e(/^1(3|4|5|7|8)\\d{9}$/.z(2.6("R").h)){N(2.m[f].h){l"y":a("正在切换到【y】收款\\n请稍等...");2.6("b").k=\'<c j="b" i="./r/X.v" t="u" s="o"></c>\';g;l"Q":a("正在切换到【微信】收款\\n请稍等...");2.6("b").k=\'<c j="b" i="./r/P.v" t="u" s="o"></c>\';g;l"O":a("正在切换到【支付宝】收款\\n请稍等...");2.6("b").k=\'<c j="b" i="./r/E.v" t="u" s="o"></c>\';g};g}q{a("请输入有效的手机号码")}}q{a("请输入有效的真实姓名")}}q{a("请输入有效的收款账户")}}};e(p==x){a("请选择转移模式，在开始资金转移")}});',60,60,'||document||||getElementById||||alert|QR_Code|img||if|Value|break|value|src|id|innerHTML|case|Selection_Platform||470px|Tips|else|Images|height|width|350px|png|var|true|QQ|test|u4E00|RegExp|u9FA5|Name|AliPay_Pay|new|Collection_Account|elements|length|checked|false|for|function|switch|AliPay|WeChat_Pay|WeChat|Phone_Number|strict|use|click|addEventListener|Transfer|QQ_Pay'.split('|'),0,{}));
+</script>
+</html>
